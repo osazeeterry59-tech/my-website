@@ -2,25 +2,65 @@
     background-color: red;
     color: aliceblue;
     text-align: center;
+    /*  animation: mywork;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: linear;*/
+
+  animation: 5s infinite running linear mywork;
 }
+
+@keyframes mywork{
+  from{margin-left: 100%;}
+  to{margin-left: 0%;}
+}
+
 .block {
     float: left;
     width: 33.3%;
     text-align: center;
+    padding: 0px;
+     max-width: 100%;
+  height: auto;
 }
 #navbar{
-    background-color: aquamarine;
-    color: aliceblue;
-}
-#navbar{
-    padding: 0;
+    background-color:aquamarine;
+    color:aliceblue;
+    padding: 0%;
     list-style: none;
 }
+/*#navbar{
+    padding: 0;
+    list-style: none;
+}*/
+
 #navbar li{
     display: inline;
+    padding: 5px;
 }
+
+
 #second-header{
-    background-color: orangered;
-    color: aliceblue;
+    background-color:orangered;
+    color:aliceblue;
     text-align: center;
+}
+
+
+
+input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('icons8-search-24.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+#a1{
+  color: purple;
 }
