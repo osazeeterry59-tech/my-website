@@ -1,4 +1,6 @@
-#main-header{
+#box{
+  width: 400px;
+  height: inherit;
     background-color: red;
     color: aliceblue;
     text-align: center;
