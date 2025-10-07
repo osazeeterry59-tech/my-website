@@ -5,12 +5,12 @@
     color: aliceblue;
     text-align: center;
     /*  animation: mywork;
-  animation-duration: 5s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-play-state: running;
   animation-timing-function: linear;*/
 
-  animation: 5s infinite running linear mywork;
+  animation: 20s infinite running linear mywork;
 }
 
 @keyframes mywork{
