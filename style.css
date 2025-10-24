@@ -66,3 +66,10 @@ input[type=text] {
 #a1{
   color: purple;
 }
+ .body {
+      background-image: url(/pexels-timothy-paule-ii-614774-2002717.jpg);
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: 500px;
+       background-position: right;
+      }
