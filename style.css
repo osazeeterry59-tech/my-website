@@ -1,9 +1,9 @@
-#box{
+/*{
   background-color: red;
     color:aliceblue;
     text-align: center;
 
-    /*  animation: mywork;
+      animation: mywork;
   animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-play-state: running;
@@ -14,7 +14,10 @@
 
 @keyframes mywork{
   from{margin-left: 100%;}
-  to{margin-left: 0%;}*/
+  to{margin-left: 0%;}
+}*/
+h1 {
+  font-size: 40px;
 }
 
 .block {
@@ -62,12 +65,34 @@ input[type=text] {
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
 }
-#a1{
-  color: purple;
+.a1{
+ text-decoration-color: ghostwhite;
+  background-position: center;
+  background-color: black;
 }
- .body {
+ .index {
       background-image: url(/pexels-jimmy-teoh-294331-1634278.jpg);
        background-repeat: no-repeat;
        background-attachment: fixed;
        background-size: cover;
+      }
+      .about {
+        background-image: url(/pexels-timothy-paule-ii-614774-2002717.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+
+      .label1 {
+        text-align: left;
+      }
+
+      .accessories {
+        background-image: url(/pexels-noah-erickson-97554-404280.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      .h2 {
+        color: aqua;
       }
